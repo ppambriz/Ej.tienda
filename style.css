@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    position: relative;
+    min-height: 100vh;
+}
+header{
+    background-color: rgb(73, 49, 100);
+    color: blanchedalmond;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    padding: 20px;
+}
+
+.baner{
+    width: 100%;    
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.productos{
+    padding: 20px;
+    text-align: center;
+}
+.producto{
+    display: inline-block;
+    margin: 20px;
+}
+.producto img{
+    width: 200px;
+    border-radius: 9%;
+    transition-duration: 1000ms;
+}
+.producto img:hover{
+    width: 250px;
+}
+
+.nosotros{
+    background-color: rgb(207, 5, 116);    
+    padding: 90px;
+    text-align: center;
+    color: white;   
+    
+}
+
+article{
+    display: inline-block;   
+}
+
+article ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.art1{
+    margin-right: 250px;
+    text-align: justify;
+}
+
+.art2{
+    margin-left: 250px;
+    text-align: justify;
+}
+
+.artl{
+    display: inline-block;  
+
+}
+
+.artl img:hover{
+    width: 42px;
+}
+
+article img{
+    width: 40px;
+    border-radius: 30%;
+    margin-left: 13px;
+    margin-top: 8px;
+    box-shadow: 5px 10px 15px rgb(31, 3, 48);
+    cursor: pointer;
+
+}
+
+
+
+#nosotros1{
+    display: block;       
+    list-style:none;
+    margin-right: 220px;
+   /* padding: 20px;*/
+    text-align: center;
+}
+
+
+/*footer{
+    color: rgb(238, 238, 238);
+    text-align: center;
+    padding: 17px;   
+    background-color: rgb(103, 0, 177);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}*/
+
+footer{
+    color: rgb(238, 238, 238);
+    text-align: center;
+}
