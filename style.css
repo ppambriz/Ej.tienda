@@ -116,7 +116,7 @@ article img{
 }
 
 
-/*footer{
+footer{
     color: rgb(238, 238, 238);
     text-align: center;
     padding: 17px;   
@@ -124,9 +124,9 @@ article img{
     position: absolute;
     bottom: 0;
     width: 100%;
-}*/
+}
 
-footer{
+/*footer{
     color: rgb(238, 238, 238);
     text-align: center;
-}
+}*/
